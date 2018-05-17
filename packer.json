@@ -4,10 +4,10 @@
       "type": "amazon-ebs",
       "region": "us-east-2",
       "source_ami": "ami-b84c7bdd",
-      "iam_instance_profile": "training23-jenkins-packer-role",
+      "iam_instance_profile": "rtt-jenkins-packer-role",
       "instance_type": "t2.medium",
       "ssh_username": "ubuntu",
-      "ami_name": "jenkins-rtt-{{isotime \"2006-01-02T1504\"}}",
+      "ami_name": "jenkins-training23-{{isotime \"2006-01-02T1504\"}}",
       "launch_block_device_mappings": [
         {
           "device_name": "/dev/sda1",
